@@ -14,7 +14,7 @@ describe('GET /', function () {
       .reply(200, {
         "status": 200,
         "events": [
-          { "title": 'an event', "id": 1234, "description": 'something really cool' },
+          { "title": 'an event', "id": 1234, "description": 'Really cool' },
           { "title": 'another event', id: 5678, "description": 'something even cooler' }
         ]
       });
